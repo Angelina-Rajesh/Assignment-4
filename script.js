@@ -1,9 +1,9 @@
-
-let diameter = parseInt(prompt('Enter diameter of a circle'))
-let radius = diameter/2
+// Let statements (formulas)
+const diameter = parseInt(prompt('Enter diameter of a circle'))
+const radius = diameter/2
 const PI = 3.141592653589793
-let areaOfCircle = (radius * radius) * PI
-let circumferenceOfCircle = PI * diameter
-
+const areaOfCircle = (radius * radius) * PI
+const circumferenceOfCircle = PI * diameter
+// Text appearing before the answer
 document.write('Area of circle is: ' + areaOfCircle)
 document.write('<br> Circumference of a circle is: ' + circumferenceOfCircle)
